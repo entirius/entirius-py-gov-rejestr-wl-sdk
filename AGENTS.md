@@ -21,7 +21,7 @@ distribution `entirius-py-gov-rejestr-wl-sdk`, import `gov_rejestr_wl_sdk`.
 - Never rename the import package `gov_rejestr_wl_sdk` — it is a public API contract.
 - Default: do not commit — git is the user's call.
 
-## Commit Message Format
+### Commit Message Format
 
 **NEVER add `Co-Authored-By: Claude ...` (or any other Claude/Anthropic attribution) to commit messages.**
 

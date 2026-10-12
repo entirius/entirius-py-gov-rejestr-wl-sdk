@@ -1,7 +1,19 @@
 [project]
 name = "entirius-py-gov-rejestr-wl-sdk"
 version = "2.0.0"
-description = "SDK for the Polish government VAT taxpayers registry (Wykaz podatników VAT / GOV Rejestr WL)"
+description = "SDK for the Polish VAT taxpayers registry, part of Entirius, the open-source modular ecommerce platform"
+keywords = ["vat", "nip", "regon", "poland", "sdk", "entirius"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP",
+]
 authors = [{ name = "Entirius" }]
 maintainers = [
     { name = "Piotr Brzozowski", email = "piotrb@entirius.com" },
@@ -21,7 +33,11 @@ dev  = ["ruff", "pre-commit"]
 test = ["pytest"]
 
 [project.urls]
+Homepage = "https://docs.entirius.com/"
+Documentation = "https://docs.entirius.com/"
 Repository = "https://github.com/entirius/entirius-py-gov-rejestr-wl-sdk"
+Changelog = "https://github.com/entirius/entirius-py-gov-rejestr-wl-sdk/blob/develop/CHANGELOG.md"
+Issues = "https://github.com/entirius/entirius-py-gov-rejestr-wl-sdk/issues"
 
 [build-system]
 requires = ["hatchling"]
