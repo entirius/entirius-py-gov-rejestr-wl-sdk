@@ -31,7 +31,7 @@ The import name is `gov_rejestr_wl_sdk`.
 from gov_rejestr_wl_sdk.services.client import GovRejestrWL
 
 client = GovRejestrWL(use_prod_environment=True)  # False = the test API
-company = client.search_by_nip("1234567890")       # raises ValueError when nothing is found
+company = client.search_by_nip("1234567890")  # raises ValueError when nothing is found
 print(company["Nazwa"], company["StatusNip"])
 ```
 
